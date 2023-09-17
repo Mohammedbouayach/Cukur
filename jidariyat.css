@@ -1,0 +1,82 @@
+
+
+.nav-item{
+ margin-left: 30px;
+}
+
+
+.player{
+ width: 450px;
+
+ margin-top: 40px;
+ 
+ background: black;
+ 
+ height: 560px;
+ border-radius: 20px;
+ 
+}
+.nam-muzik{
+ display: flex;
+ justify-content: center;
+ margin-top: 6px;
+}
+.nam-muzik h4{
+ color: white;
+ font-weight: bold;
+ text-transform: uppercase;
+
+}
+.player .imgbx{
+ position: relative;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ 
+ 
+ 
+
+}
+.player .imgbx img{
+ 
+ width: 400px;
+ height: 400px;
+ object-fit: cover;
+ border:  2px solid black;
+ border-radius: 20px;
+ 
+ 
+ 
+}
+.player audio{
+ width: 80%;
+ height: 60px;
+ margin-left: 40px;
+
+}
+.navbar input{
+ width: 170px;
+ margin-left: 20px;
+ border: none;
+ outline: none;
+ text-align: center;
+ border-radius: 20px;
+ 
+}
+
+
+
+@media screen and (max-width: 768px) {
+ 
+.nav-item{
+ margin-left: 0px;
+}
+
+.player{
+ width: 400px;
+}
+.player .imgbx img{
+ width: 300px;
+}
+
+}
